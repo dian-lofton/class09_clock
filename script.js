@@ -104,7 +104,7 @@ $(document).ready(function() {
 
   setInterval(function() {
 
-      $('#menu').append(size[fnt]);  // as a witness of the behaviour
+      $('#menu').append(size[fnt]);
       $('#menu').css({'fontSize': size[fnt]});
       fnt += 1;
 
